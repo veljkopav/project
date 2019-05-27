@@ -3,5 +3,5 @@ README.md: guessinggame.sh
 	echo "# Project: guessing game" >>README.md
 	date >> README.md
 	echo "The guessinggame.sh has " >> README.md
-	wc -1 guessinggame.sh | egrep -o "[0-9]*" >> README.md
+	wc -l guessinggame.sh | egrep -o "[0-9]*" >> README.md
 	echo "lines." >> README.md
